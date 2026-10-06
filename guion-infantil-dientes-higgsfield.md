@@ -164,3 +164,24 @@ LULA (hablado): ¡Buenas noches, dientitos! ¡Chau, chau!
 - Marcá el video como "Hecho para niños" (es obligatorio por ley COPPA; si no lo marcás te pueden multar o bajar el canal).
 - Activá la etiqueta de contenido alterado o sintético.
 - Desde 2025 YouTube desmonetiza canales con videos IA repetitivos o hechos en serie. Para que no te pase: canción y rutina distinta en cada video, los mismos personajes, y que cada capítulo tenga algo nuevo (un personaje, un lugar).
+
+## Imágenes generadas en Higgsfield (IDs para usar en Seedance)
+
+| Escena | Job ID |
+|---|---|
+| Hoja de personajes | 7b77e5f1-1aa9-405a-9691-1e820bbb682f |
+| 1 | da3ec73f-9476-4e39-8d38-5cae55f4b294 |
+| 2 | e30297bb-40ac-4c97-989e-f9bcdbc62c45 |
+| 3 | 71a004d4-c41a-4d02-861f-7fda713ebf8a |
+| 4 | deb16c7d-84fd-46ef-b41f-6cd1459ec153 |
+| 5 | 7eb0a714-8f4c-4f1d-8aa5-633cd8c4f592 |
+| 6 | 4fc1d8b9-c69a-4ae2-9053-55e50639c26c |
+| 7 | 2440a41d-5abf-4ec9-a9f4-34cac1ea13b1 |
+| 8 | 10e46d9b-3c49-4663-963d-2b4ac122932d |
+| 9 | ecd39215-27eb-4ae0-bc72-56c653b1b3f1 |
+| 10 | 7f90eeba-d058-4024-9983-950dcf533100 |
+| 11 | a13ffca6-791c-4287-ae3c-516af7f1691b |
+| 12 | 934b3b4a-c5eb-4d47-a494-ca930a4e0be1 |
+| 13 | 329b37e9-01af-457e-b790-4abd1de6d62d |
+| 14 | 9b39277d-cff9-4979-af66-ed02aaefc5bd |
+| 15 | 42709ed3-2180-477b-97b4-d2db7b5e6dd9 |
