@@ -185,3 +185,23 @@ LULA (hablado): ¡Buenas noches, dientitos! ¡Chau, chau!
 | 13 | 329b37e9-01af-457e-b790-4abd1de6d62d |
 | 14 | 9b39277d-cff9-4979-af66-ed02aaefc5bd |
 | 15 | 42709ed3-2180-477b-97b4-d2db7b5e6dd9 |
+
+## Videos generados en Seedance 2.0 (720p, 8 s, sin audio)
+
+| Escena | Job ID |
+|---|---|
+| 1 | fa2eef30-1197-4ed3-884f-5c86908acbcd |
+| 2 | 0832b688-2bd8-44cc-bbde-cd968eee4a96 |
+| 3 | d8e3a3e4-514e-4b74-ba7e-9f51172adbdb |
+| 4 | 9363e1f5-ad74-4fb7-b1fb-26497e8f8659 |
+| 5 | dfd7e685-c44d-4c08-937b-d9473451d1b6 |
+| 6 | 0c553bf3-2e0c-4db8-b445-ae15cf61a8f0 |
+| 7 | 615120bd-09d7-4a69-bc2e-a5ba1a6df15f |
+| 8 | b10ee3b8-238f-4026-80a4-ed3951e288f8 |
+| 9 | 395c6d2f-1307-4f43-a45b-2812b0db992e |
+| 10 | 92fe62df-86b3-4f00-a834-c4525fd6dd4d |
+| 11 | 46057b5b-3558-4968-b63c-39f4e3b69d7f |
+| 12 | e73de6f8-03dc-418f-9f5e-2c09efbb3ba1 |
+| 13 | 3aa6582e-8d17-4dfb-b9f3-77d04ddda6f8 |
+| 14 | ac93657c-b78e-462e-b497-fa2f3eee62ba |
+| 15 | a42e4499-3b32-4fed-ad65-792ecb499884 |
