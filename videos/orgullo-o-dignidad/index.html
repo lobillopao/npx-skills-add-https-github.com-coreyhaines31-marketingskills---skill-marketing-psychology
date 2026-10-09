@@ -18,24 +18,28 @@
         background: radial-gradient(120% 70% at 50% 42%, #2a1a1d 0%, #140e10 62%, #0d090a 100%);
       }
       .scene { position: absolute; inset: 0; }
+      .photo { position: absolute; inset: 0; overflow: hidden; display: block; }
+      .photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
+      .shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(28,14,10,0.35) 0%, rgba(28,14,10,0.62) 22%, rgba(28,14,10,0.70) 50%, rgba(28,14,10,0.62) 78%, rgba(28,14,10,0.40) 100%); }
+      .line { text-shadow: 0 2px 18px rgba(20,8,6,0.55); }
       .wrap {
         position: absolute; left: 96px; right: 96px; top: 330px; bottom: 560px;
         display: flex; flex-direction: column; justify-content: center; gap: 34px;
       }
       .line { display: block; color: #f3e9dc; }
-      .body { font-family: "Montserrat", sans-serif; font-weight: 400; font-size: 48px; line-height: 1.32; color: rgba(243,233,220,0.86); }
+      .body { font-family: "Montserrat", sans-serif; font-weight: 500; font-size: 48px; line-height: 1.32; color: #f6eee4; }
       .body em { font-style: normal; font-weight: 700; color: #f3e9dc; }
       .big { font-family: "League Gothic", sans-serif; font-weight: 400; font-size: 132px; line-height: 0.96; text-transform: uppercase; letter-spacing: 0.005em; }
-      .big em, .hook-line.accent { font-style: normal; color: #ff5a4e; }
+      .big em, .hook-line.accent { font-style: normal; color: #ff8a6b; }
       .quote { color: #f3e9dc; }
-      .cta { font-family: "Montserrat", sans-serif; font-weight: 700; font-size: 40px; line-height: 1.3; color: #ff5a4e; margin-top: 18px; }
+      .cta { font-family: "Montserrat", sans-serif; font-weight: 700; font-size: 40px; line-height: 1.3; color: #ff8a6b; margin-top: 18px; }
       .hook-line { font-family: "League Gothic", sans-serif; font-size: 250px; line-height: 0.9; text-transform: uppercase; color: #f3e9dc; text-align: center; display: block; }
       .hook-o { font-family: "Montserrat", sans-serif; font-weight: 400; font-size: 64px; color: rgba(243,233,220,0.7); text-align: center; display: block; }
       #s01-wrap { align-items: center; gap: 10px; }
       .motif { position: absolute; left: 0; right: 0; top: 1440px; height: 40px; }
       .rail { position: absolute; left: 96px; right: 96px; top: 19px; height: 2px; background: rgba(243,233,220,0.10); }
       .dot { position: absolute; left: 50%; top: 2px; width: 36px; height: 36px; margin-left: -18px; border-radius: 50%; display: block; }
-      #dot-a { background: #ff5a4e; }
+      #dot-a { background: #ff8a6b; }
       #dot-b { background: #f3e9dc; }
     </style>
   </head>
@@ -43,6 +47,8 @@
     <div id="root" data-composition-id="main" data-start="0" data-duration="82.22" data-width="1080" data-height="1920">
       <div id="bg" class="clip bg" data-start="0" data-duration="82.22" data-track-index="0"></div>
       <section id="s01" class="clip scene" data-start="0" data-duration="3.2" data-track-index="1">
+          <div class="photo" id="s01-photo"><img id="s01-img" src="assets/img/bg-01.jpg" alt="" /></div>
+          <div class="shade"></div>
         <div class="wrap" id="s01-wrap">
           <div class="hook-line" id="s01-a">¿Orgullo</div>
           <div class="hook-o" id="s01-o">o</div>
@@ -50,6 +56,8 @@
         </div>
       </section>
       <section id="s02" class="clip scene" data-start="3.2" data-duration="8.31" data-track-index="1">
+          <div class="photo" id="s02-photo"><img id="s02-img" src="assets/img/bg-02.jpg" alt="" /></div>
+          <div class="shade"></div>
         <div class="wrap" id="s02-wrap">
           <div class="line body" id="s02-l1">Después de una pelea, cada uno se va para su lado.</div>
           <div class="line body" id="s02-l2">Pasan las horas.</div>
@@ -58,6 +66,8 @@
         </div>
       </section>
       <section id="s03" class="clip scene" data-start="11.51" data-duration="6.14" data-track-index="1">
+          <div class="photo" id="s03-photo"><img id="s03-img" src="assets/img/bg-03.jpg" alt="" /></div>
+          <div class="shade"></div>
         <div class="wrap" id="s03-wrap">
           <div class="line big quote" id="s03-l1">«¿Por qué tengo que ir <em>yo</em>?»</div>
           <div class="line body" id="s03-l2">«Que venga primero».</div>
@@ -65,6 +75,8 @@
         </div>
       </section>
       <section id="s04" class="clip scene" data-start="17.65" data-duration="7.27" data-track-index="1">
+          <div class="photo" id="s04-photo"><img id="s04-img" src="assets/img/bg-04.jpg" alt="" /></div>
+          <div class="shade"></div>
         <div class="wrap" id="s04-wrap">
           <div class="line body" id="s04-l1">En algún momento, la discusión deja de ser sobre lo que pasó.</div>
           <div class="line body" id="s04-l2">Ahora se trata de</div>
@@ -73,6 +85,8 @@
         </div>
       </section>
       <section id="s05" class="clip scene" data-start="24.92" data-duration="5.13" data-track-index="1">
+          <div class="photo" id="s05-photo"><img id="s05-img" src="assets/img/bg-05.jpg" alt="" /></div>
+          <div class="shade"></div>
         <div class="wrap" id="s05-wrap">
           <div class="line big" id="s05-l1">¿Cuándo tener razón</div>
           <div class="line body" id="s05-l2">se volvió más importante</div>
@@ -80,6 +94,8 @@
         </div>
       </section>
       <section id="s06" class="clip scene" data-start="30.05" data-duration="7.74" data-track-index="1">
+          <div class="photo" id="s06-photo"><img id="s06-img" src="assets/img/bg-06.jpg" alt="" /></div>
+          <div class="shade"></div>
         <div class="wrap" id="s06-wrap">
           <div class="line body" id="s06-l1">Dar el primer paso puede ser una elección.</div>
           <div class="line big" id="s06-l2">Acercarse y ceder son cosas <em>distintas</em>.</div>
@@ -87,6 +103,8 @@
         </div>
       </section>
       <section id="s07" class="clip scene" data-start="37.79" data-duration="8.79" data-track-index="1">
+          <div class="photo" id="s07-photo"><img id="s07-img" src="assets/img/bg-07.jpg" alt="" /></div>
+          <div class="shade"></div>
         <div class="wrap" id="s07-wrap">
           <div class="line body" id="s07-l1">A veces alcanza con empezar así:</div>
           <div class="line big quote" id="s07-l2">«Sigo enojado por lo que pasó.</div>
@@ -95,6 +113,8 @@
         </div>
       </section>
       <section id="s08" class="clip scene" data-start="46.58" data-duration="6.86" data-track-index="1">
+          <div class="photo" id="s08-photo"><img id="s08-img" src="assets/img/bg-08.jpg" alt="" /></div>
+          <div class="shade"></div>
         <div class="wrap" id="s08-wrap">
           <div class="line big" id="s08-l1">¿Qué pasa cuando siempre se acerca <em>la misma persona</em>?</div>
           <div class="line body" id="s08-l2">Cuando una busca, habla e intenta reparar…</div>
@@ -102,6 +122,8 @@
         </div>
       </section>
       <section id="s09" class="clip scene" data-start="53.44" data-duration="7.98" data-track-index="1">
+          <div class="photo" id="s09-photo"><img id="s09-img" src="assets/img/bg-09.jpg" alt="" /></div>
+          <div class="shade"></div>
         <div class="wrap" id="s09-wrap">
           <div class="line body" id="s09-l1">Cuando uno siempre repara y el otro nunca toma la iniciativa,</div>
           <div class="line big" id="s09-l2">la reconciliación se convierte en una <em>carga</em>.</div>
@@ -109,6 +131,8 @@
         </div>
       </section>
       <section id="s10" class="clip scene" data-start="61.42" data-duration="7.61" data-track-index="1">
+          <div class="photo" id="s10-photo"><img id="s10-img" src="assets/img/bg-10.jpg" alt="" /></div>
+          <div class="shade"></div>
         <div class="wrap" id="s10-wrap">
           <div class="line big" id="s10-l1">¿Esto es <em>dignidad</em> o es <em>orgullo</em>?</div>
           <div class="line body" id="s10-l2">Y cuando siempre se da el primer paso:</div>
@@ -116,12 +140,16 @@
         </div>
       </section>
       <section id="s11" class="clip scene" data-start="69.03" data-duration="5.05" data-track-index="1">
+          <div class="photo" id="s11-photo"><img id="s11-img" src="assets/img/bg-11.jpg" alt="" /></div>
+          <div class="shade"></div>
         <div class="wrap" id="s11-wrap">
           <div class="line big" id="s11-l1">Acercarse primero no significa <em>perder</em>.</div>
           <div class="line body" id="s11-l2">Pero reparar siempre en soledad tampoco es una solución.</div>
         </div>
       </section>
       <section id="s12" class="clip scene" data-start="74.08" data-duration="7.54" data-track-index="1">
+          <div class="photo" id="s12-photo"><img id="s12-img" src="assets/img/bg-12.jpg" alt="" /></div>
+          <div class="shade"></div>
         <div class="wrap" id="s12-wrap">
           <div class="line big" id="s12-l1">¿Sabemos <em>recibir</em> el acercamiento del otro</div>
           <div class="line body" id="s12-l2">sin convertirlo en una victoria?</div>
@@ -139,6 +167,8 @@
       tl.fromTo("#s01-a", { opacity: 0, y: 60 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 0.1);
       tl.fromTo("#s01-o", { opacity: 0 }, { opacity: 1, duration: 0.3 }, 0.55);
       tl.fromTo("#s01-b", { opacity: 0, y: 60 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 0.8);
+      tl.fromTo("#s01-photo", { opacity: 1 }, { opacity: 1, duration: 0.45, ease: "power1.out" }, 0.00);
+      tl.fromTo("#s01-img", { scale: 1.0 }, { scale: 1.08, duration: 3.2, ease: "none" }, 0.00);
       tl.to("#s01-wrap", { opacity: 0, duration: 0.3, ease: "power1.in" }, 2.88);
       tl.fromTo("#dot-a", { x: 0, opacity: 0 }, { x: -170, opacity: 1, duration: 1.1, ease: "power2.out" }, 0.2);
       tl.fromTo("#dot-b", { x: 0, opacity: 0 }, { x: 170, opacity: 1, duration: 1.1, ease: "power2.out" }, 0.2);
@@ -146,12 +176,16 @@
       tl.fromTo("#s02-l2", { opacity: 0, y: 28 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 6.10);
       tl.fromTo("#s02-l3", { opacity: 0, y: 28 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 7.15);
       tl.fromTo("#s02-l4", { opacity: 0, y: 46 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 9.20);
+      tl.fromTo("#s02-photo", { opacity: 0 }, { opacity: 1, duration: 0.45, ease: "power1.out" }, 3.20);
+      tl.fromTo("#s02-img", { scale: 1.0 }, { scale: 1.08, duration: 8.31, ease: "none" }, 3.20);
       tl.to("#s02-wrap", { opacity: 0, duration: 0.3, ease: "power1.in" }, 11.19);
       tl.to("#dot-a", { x: -360, duration: 1.4, ease: "power2.inOut" }, 3.30);
       tl.to("#dot-b", { x: 360, duration: 1.4, ease: "power2.inOut" }, 3.30);
       tl.fromTo("#s03-l1", { opacity: 0, y: 46 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 11.76);
       tl.fromTo("#s03-l2", { opacity: 0, y: 28 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 13.80);
       tl.fromTo("#s03-l3", { opacity: 0, y: 28 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 14.85);
+      tl.fromTo("#s03-photo", { opacity: 0 }, { opacity: 1, duration: 0.45, ease: "power1.out" }, 11.51);
+      tl.fromTo("#s03-img", { scale: 1.0 }, { scale: 1.08, duration: 6.14, ease: "none" }, 11.51);
       tl.to("#s03-wrap", { opacity: 0, duration: 0.3, ease: "power1.in" }, 17.33);
       tl.to("#dot-a", { x: -360, duration: 1.4, ease: "power2.inOut" }, 11.61);
       tl.to("#dot-b", { x: 360, duration: 1.4, ease: "power2.inOut" }, 11.61);
@@ -159,18 +193,24 @@
       tl.fromTo("#s04-l2", { opacity: 0, y: 28 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 20.75);
       tl.fromTo("#s04-l3", { opacity: 0, y: 46 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 22.00);
       tl.fromTo("#s04-l4", { opacity: 0, y: 28 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 23.32);
+      tl.fromTo("#s04-photo", { opacity: 0 }, { opacity: 1, duration: 0.45, ease: "power1.out" }, 17.65);
+      tl.fromTo("#s04-img", { scale: 1.0 }, { scale: 1.08, duration: 7.27, ease: "none" }, 17.65);
       tl.to("#s04-wrap", { opacity: 0, duration: 0.3, ease: "power1.in" }, 24.60);
       tl.to("#dot-a", { x: -400, duration: 1.4, ease: "power2.inOut" }, 17.75);
       tl.to("#dot-b", { x: 400, duration: 1.4, ease: "power2.inOut" }, 17.75);
       tl.fromTo("#s05-l1", { opacity: 0, y: 46 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 25.17);
       tl.fromTo("#s05-l2", { opacity: 0, y: 28 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 26.49);
       tl.fromTo("#s05-l3", { opacity: 0, y: 46 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 27.74);
+      tl.fromTo("#s05-photo", { opacity: 0 }, { opacity: 1, duration: 0.45, ease: "power1.out" }, 24.92);
+      tl.fromTo("#s05-img", { scale: 1.0 }, { scale: 1.08, duration: 5.13, ease: "none" }, 24.92);
       tl.to("#s05-wrap", { opacity: 0, duration: 0.3, ease: "power1.in" }, 29.73);
       tl.to("#dot-a", { x: -400, duration: 1.4, ease: "power2.inOut" }, 25.02);
       tl.to("#dot-b", { x: 400, duration: 1.4, ease: "power2.inOut" }, 25.02);
       tl.fromTo("#s06-l1", { opacity: 0, y: 28 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 30.30);
       tl.fromTo("#s06-l2", { opacity: 0, y: 46 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 32.35);
       tl.fromTo("#s06-l3", { opacity: 0, y: 28 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 34.39);
+      tl.fromTo("#s06-photo", { opacity: 0 }, { opacity: 1, duration: 0.45, ease: "power1.out" }, 30.05);
+      tl.fromTo("#s06-img", { scale: 1.0 }, { scale: 1.08, duration: 7.74, ease: "none" }, 30.05);
       tl.to("#s06-wrap", { opacity: 0, duration: 0.3, ease: "power1.in" }, 37.47);
       tl.to("#dot-a", { x: -110, duration: 1.4, ease: "power2.inOut" }, 30.15);
       tl.to("#dot-b", { x: 380, duration: 1.4, ease: "power2.inOut" }, 30.15);
@@ -178,35 +218,47 @@
       tl.fromTo("#s07-l2", { opacity: 0, y: 46 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 39.69);
       tl.fromTo("#s07-l3", { opacity: 0, y: 28 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 41.73);
       tl.fromTo("#s07-l4", { opacity: 0, y: 28 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 43.78);
+      tl.fromTo("#s07-photo", { opacity: 0 }, { opacity: 1, duration: 0.45, ease: "power1.out" }, 37.79);
+      tl.fromTo("#s07-img", { scale: 1.0 }, { scale: 1.08, duration: 8.79, ease: "none" }, 37.79);
       tl.to("#s07-wrap", { opacity: 0, duration: 0.3, ease: "power1.in" }, 46.26);
       tl.to("#dot-a", { x: -90, duration: 1.4, ease: "power2.inOut" }, 37.89);
       tl.to("#dot-b", { x: 120, duration: 1.4, ease: "power2.inOut" }, 37.89);
       tl.fromTo("#s08-l1", { opacity: 0, y: 46 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 46.83);
       tl.fromTo("#s08-l2", { opacity: 0, y: 28 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 49.59);
       tl.fromTo("#s08-l3", { opacity: 0, y: 28 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 51.44);
+      tl.fromTo("#s08-photo", { opacity: 0 }, { opacity: 1, duration: 0.45, ease: "power1.out" }, 46.58);
+      tl.fromTo("#s08-img", { scale: 1.0 }, { scale: 1.08, duration: 6.86, ease: "none" }, 46.58);
       tl.to("#s08-wrap", { opacity: 0, duration: 0.3, ease: "power1.in" }, 53.12);
       tl.to("#dot-a", { x: 260, duration: 1.4, ease: "power2.inOut" }, 46.68);
       tl.to("#dot-b", { x: 380, duration: 1.4, ease: "power2.inOut" }, 46.68);
       tl.fromTo("#s09-l1", { opacity: 0, y: 28 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 53.69);
       tl.fromTo("#s09-l2", { opacity: 0, y: 46 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 56.34);
       tl.fromTo("#s09-l3", { opacity: 0, y: 28 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 58.62);
+      tl.fromTo("#s09-photo", { opacity: 0 }, { opacity: 1, duration: 0.45, ease: "power1.out" }, 53.44);
+      tl.fromTo("#s09-img", { scale: 1.0 }, { scale: 1.08, duration: 7.98, ease: "none" }, 53.44);
       tl.to("#s09-wrap", { opacity: 0, duration: 0.3, ease: "power1.in" }, 61.10);
       tl.to("#dot-a", { x: -380, duration: 1.4, ease: "power2.inOut" }, 53.54);
       tl.to("#dot-b", { x: 380, duration: 1.4, ease: "power2.inOut" }, 53.54);
       tl.fromTo("#s10-l1", { opacity: 0, y: 46 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 61.67);
       tl.fromTo("#s10-l2", { opacity: 0, y: 28 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 63.71);
       tl.fromTo("#s10-l3", { opacity: 0, y: 46 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 65.76);
+      tl.fromTo("#s10-photo", { opacity: 0 }, { opacity: 1, duration: 0.45, ease: "power1.out" }, 61.42);
+      tl.fromTo("#s10-img", { scale: 1.0 }, { scale: 1.08, duration: 7.61, ease: "none" }, 61.42);
       tl.to("#s10-wrap", { opacity: 0, duration: 0.3, ease: "power1.in" }, 68.71);
       tl.to("#dot-a", { x: -380, duration: 1.4, ease: "power2.inOut" }, 61.52);
       tl.to("#dot-b", { x: 380, duration: 1.4, ease: "power2.inOut" }, 61.52);
       tl.fromTo("#s11-l1", { opacity: 0, y: 46 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 69.28);
       tl.fromTo("#s11-l2", { opacity: 0, y: 28 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 71.08);
+      tl.fromTo("#s11-photo", { opacity: 0 }, { opacity: 1, duration: 0.45, ease: "power1.out" }, 69.03);
+      tl.fromTo("#s11-img", { scale: 1.0 }, { scale: 1.08, duration: 5.05, ease: "none" }, 69.03);
       tl.to("#s11-wrap", { opacity: 0, duration: 0.3, ease: "power1.in" }, 73.76);
       tl.to("#dot-a", { x: -70, duration: 1.4, ease: "power2.inOut" }, 69.13);
       tl.to("#dot-b", { x: 70, duration: 1.4, ease: "power2.inOut" }, 69.13);
       tl.fromTo("#s12-l1", { opacity: 0, y: 46 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 74.33);
       tl.fromTo("#s12-l2", { opacity: 0, y: 28 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 76.37);
       tl.fromTo("#s12-l3", { opacity: 0, y: 28 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, 77.82);
+      tl.fromTo("#s12-photo", { opacity: 0 }, { opacity: 1, duration: 0.45, ease: "power1.out" }, 74.08);
+      tl.fromTo("#s12-img", { scale: 1.0 }, { scale: 1.08, duration: 7.54, ease: "none" }, 74.08);
       tl.to("#dot-a", { x: -60, duration: 1.4, ease: "power2.inOut" }, 74.18);
       tl.to("#dot-b", { x: 60, duration: 1.4, ease: "power2.inOut" }, 74.18);
       tl.to("#dot-a", { opacity: 1, duration: 0.01 }, 82.17);
